@@ -1,0 +1,8 @@
+Cross validation is important to prevent over-fitting for machine learning models (e.g., lasso, random forest). There has been standard procedures to do cross validation on cross-sectional data, such as k-fold cross validation. Yet, there is no concensus on cross validation for time series data, in which auto-correlation is a key feature. If we apply k-fold cross validation on the time series data, the time series feature embedded in the time series data would be lost. Consequencely, the cross validation will not improve out-of-sample prediction. Thus, the problem is how can we do cross validation on time series data. 
+
+There has been discussions on the issue among data scientists. This following website is one of the discussions that make sense to me. https://robjhyndman.com/hyndsight/tscvexample/
+There are R examples in the website. You can execute the examples on your own, or use the codes in "TimeSeriesCrossValidation.r" (in section Rob J Hyndman). 
+
+Would you please look into the problem? 
+
+I am writing a tentative solution at Overleaf. This solution is based on the content in the website https://robjhyndman.com/hyndsight/tscvexample/. I will certainly need your efforts in improving on the solution. 
